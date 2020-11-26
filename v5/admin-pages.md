@@ -9,7 +9,7 @@ Admin pages are located in the WordPress admin in the main sidebar navigation. A
 
 ## Adding an Admin Page
 
-To register an "Admin Page" in WordPress, you only need one line of code.
+To register an "Admin Page" in WordPress, you only need one line of code inside a `typerocket_loaded` action.
 
 ```php
 tr_page('Api', 'view', 'APIs Page');
