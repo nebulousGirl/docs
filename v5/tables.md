@@ -23,7 +23,7 @@ echo $table;
 You can set the model manually as well manually for totally custom tables.
 
 ```php
-$table = tr_tables(new \App\Model\Posts);
+$table = tr_table(new \App\Model\Posts);
 echo $table;
 ```
 
